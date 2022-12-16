@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+// colors
+$body-color: #EEF2F5;
+$back-color: #fff;
+$silver-color: #898989;
+$crim: #dc143c;
+// colors //
+
+body {
+    background-color: $body-color;
+    font-family: sans-serif;
+}
+
+// .site-header{
+
+// }
+.header-title {
+    width: 1200px;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__button {
+    padding: 2px 15px;
+
+}
+
+.life-ser {
+    position: absolute;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: $crim;
+    color: $back-color;
+    border-radius: 5px;
+    left: 327px;
+
+    span {
+        i {
+            color: $back-color;
+        }
+    }
+
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-video {
+    
+    position: relative;
+    background-color: $back-color;
+    max-width: 450px;
+    
+
+    .play {
+        position: absolute;
+        left: 40%;
+        top: 110px;
+    }
+
+    h3 {
+        margin-top: 20px;
+    }
+
+    p {
+        margin-top: 15px;
+    }
+
+    .video-title {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            width: 250px;
+        }
+
+        a {
+
+            background-color: $silver-color;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+    }
+
+    .about__video {
+        margin: 20px;
+    }
+
+    
+    
+}
+.min-videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 600px;
+    
+    
+}
+.others {
+    // max-height:230px; 
+    position: relative;
+    max-width: 255px;
+    background-color: $back-color;
+    
+    p {
+        padding: 15px;
+    }
+    .likes {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .others-life {
+        position: absolute;
+        display: inline-block;
+        padding: 3px 15px;
+        background-color: $crim;
+        color: $back-color;
+        border-radius: 5px;
+        left: 162px;
+    
+        span {
+            i {
+                color: $back-color;
+            }
+        }
+
+}    
+}
+.play2{
+    position: absolute;
+    left: 95px;
+    bottom: 140px;
+}
